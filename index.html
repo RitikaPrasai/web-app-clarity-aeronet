@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>AERONET Data Explorer</title>
+    <link rel='stylesheet' type='text/css' href='./map.css' />
+    <link rel='stylesheet' type='text/css' href='./forms.css' />
+    <link rel='stylesheet' type='text/css' href='./style.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src='https://cdn.jsdelivr.net/npm/flatpickr'></script>
+    <script src='https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js'></script>
+    <script src='https://unpkg.com/chart.js@2.9.4' integrity=''></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'></script>
+    <script src="leaflet_shape.js"></script>
+    <script src="dateUtil.js"></script>
+    <script src='https://unpkg.com/d3@5.7.0/dist/d3.min.js'></script>
+    <script src="csvToArray.v2.1.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js'></script>
+    <script src="https://unpkg.com/@joergdietrich/leaflet.terminator"></script>
+    
+
+    <script type='module' src='./components.js'></script>
+    <script type='module' src='./data.js'></script>
+    <script type='module' src='./clarity.js'></script>
+    <script type='module' src='./aeronet_forecast.js'></script>
+    <script type='module' src='./openaq.js'></script>
+    <script type='module' src='./pandora.js'></script>
+    <script type='module' src='./map.js' defer></script>
+</head>
+
+
+
+<body>
+    <div>
+        <div>
+            <div id="tab-container" style="display: flex;">
+                <div id="fields" class="tabcontent"></div>
+            </div>
+        </div>
+        <div>
+            <div id="legend-container">
+                <div style="display: flex;justify-content: space-evenly;">
+                    <div><i class="fa-regular fa-circle"></i> Aeronet</div>
+                    <div> <i class="fa-regular fa-square"></i> Clarity AQ Sensors</div>
+                    <div><i class="fa-regular fa-star"></i> Open AQ-REF Grade </div>
+                    <div><i class="ph ph-navigation-arrow"></i> Open AQ-Low Cost</div>
+                    <div> <i class="ph ph-triangle"></i> GEOS-FP-ML AQ forecast</div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-left: 8%;">
+            <!--  -->
+            <div id='map-container'>
+                <div class='popup column' id='map'>
+                    <div id='chart-control chart-container'></div>
+                </div>
+                <div>
+                    <button style="margin-top: 5%;" type="button" onclick="tableToCSV()">Download Table
+                        Data</button>
+                    <table id="record-table-body"></table>
+                    <!-- <button type="button">download table data</button> -->
+                </div>
+            </div>
+            
+
+
+            <!-- <div style="display: flex;">
+                <table id="aeronet-table-body">
+                <table id="clarity-table-body"></table>
+                <table id="short-distance-table-body"></table>
+            </div> -->
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function tableToCSV() {
+
+        // Variable to store the final csv data
+        let csv_data = [];
+
+        // Get each row data
+        let table_data = document.getElementById('record-table-body');
+        let rows = table_data.getElementsByTagName('tr');
+        let rowCounter = 1;
+        for (let i = 0; i < rows.length; i++) {
+
+            // Get each column data
+            let cols = rows[i].querySelectorAll('td', 'th');
+            
+
+            //Header
+            if(i==0){
+                let csvrow = [];
+                csvrow.push("Records");
+                csvrow.push("AERONET Station");
+                csvrow.push("AERONET Latitude");
+                csvrow.push("AERONET Longitude");
+                csvrow.push("Clarity Station");
+                csvrow.push("Clarity Latitude");
+                csvrow.push("Clarity Longitude");
+                csvrow.push("Distance between AERONET and Clarity (meter)");
+                csv_data.push(csvrow.join(","));
+                continue;
+            }
+
+            // Stores each csv row data
+            let csvrow = [];
+            csvrow.push(rowCounter);
+            for (let j = 1; j < 3; j++) {
+                let content = cols[j].innerHTML;
+                let station = content.substring(0, content.indexOf("("));
+                let latlon = content.substring(content.indexOf("(")+1, content.indexOf(")"));
+                let lat = latlon.split(",")[0];
+                let lon = latlon.split(",")[1];
+                csvrow.push(station);
+                csvrow.push(lat);
+                csvrow.push(lon);
+            }
+
+            csvrow.push(cols[3].innerHTML);
+            rowCounter++;
+
+            csv_data.push(csvrow.join(","));
+
+        }
+
+        // Combine each row data with new line character
+        csv_data = csv_data.join('\n');
+        columns_names = Object.keys(csv_data);
+
+        // Call this function to download csv file 
+        downloadCSVFile(csv_data);
+
+    }
+
+    function downloadCSVFile(csv_data) {
+
+        // Create CSV file object and feed
+        // our csv_data into it
+        CSVFile = new Blob([csv_data], {
+            type: "text/csv"
+        });
+
+        // Create to temporary link to initiate
+        // download process
+        let temp_link = document.createElement('a');
+
+        // Download csv file
+        temp_link.download = "AERONET_CLARITY_DATA.csv";
+        let url = window.URL.createObjectURL(CSVFile);
+        temp_link.href = url;
+
+        // This link should not be displayed
+        temp_link.style.display = "none";
+        document.body.appendChild(temp_link);
+
+        // Automatically click the link to
+        // trigger download
+        temp_link.click();
+        document.body.removeChild(temp_link);
+    }
+    //added to download the clarity data
+    function convertToCSV(arr) {
+        const array = [Object.keys(arr[0])].concat(arr)
+        return array.map(it => {
+            return Object.values(it).toString()
+        }).join('\n')
+    }
+
+    function download(content) {
+        content = JSON.parse(content);
+        let csv = [];
+        let data = content['data'];
+        data.forEach(element => {
+            let csvContent = { 'time': element.time, 'pm2.5': element.raw };
+            csv.push(csvContent);
+        });
+        return downloadCSVFile(convertToCSV(csv));
+    }
+
+</script>
+</body>
+
+</html>
+
+
+<script language="JavaScript" type="text/javascript" src='./forms.js'></script>
+
+</html>

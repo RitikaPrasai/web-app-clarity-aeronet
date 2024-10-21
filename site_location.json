@@ -1,0 +1,1347 @@
+[
+  {
+    "datasourceId": "Abidjan",
+    "lat": 5.3599517,
+    "lon": -4.0082563
+  },
+  {
+    "datasourceId": "Abu Dhabi",
+    "lat": 24.453884,
+    "lon": 54.3773438
+  },
+  {
+    "datasourceId": "Abuja",
+    "lat": 9.041648,
+    "lon": 7.477374
+  },
+  {
+    "datasourceId": "Accra",
+    "lat": 5.580642,
+    "lon": -0.170724
+  },
+  {
+    "datasourceId": "Adana",
+    "lat": 36.9914194,
+    "lon": 35.3308285
+  },
+  {
+    "datasourceId": "Addis Ababa",
+    "lat": 8.9806034,
+    "lon": 38.7577605
+  },
+  {
+    "datasourceId": "Alexandria",
+    "lat": 31.2000924,
+    "lon": 29.9187387
+  },
+  {
+    "datasourceId": "Algiers",
+    "lat": 36.755798,
+    "lon": 3.039114
+  },
+  {
+    "datasourceId": "Almaty",
+    "lat": 43.252855,
+    "lon": 76.93118
+  },
+  {
+    "datasourceId": "Amman",
+    "lat": 31.9539494,
+    "lon": 35.910635
+  },
+  {
+    "datasourceId": "Amsterdam",
+    "lat": 52.3675734,
+    "lon": 4.9041389
+  },
+  {
+    "datasourceId": "Ankara",
+    "lat": 39.9333635,
+    "lon": 32.8597419
+  },
+  {
+    "datasourceId": "Antananarivo",
+    "lat": -18.90848,
+    "lon": 47.53751
+  },
+  {
+    "datasourceId": "Antwerp",
+    "lat": 51.2213404,
+    "lon": 4.4051485
+  },
+  {
+    "datasourceId": "Apia",
+    "lat": -13.8506958,
+    "lon": -171.7513551
+  },
+  {
+    "datasourceId": "Ashgabat",
+    "lat": 37.9600766,
+    "lon": 58.3260629
+  },
+  {
+    "datasourceId": "Asmara",
+    "lat": 15.3228767,
+    "lon": 38.9250517
+  },
+  {
+    "datasourceId": "Asuncion",
+    "lat": 31.560078,
+    "lon": 74.33589
+  },
+  {
+    "datasourceId": "Athens",
+    "lat": 37.9838096,
+    "lon": 23.7275388
+  },
+  {
+    "datasourceId": "Auckland",
+    "lat": -36.8508827,
+    "lon": 174.7644881
+  },
+  {
+    "datasourceId": "Baghdad",
+    "lat": 33.315241,
+    "lon": 44.3660671
+  },
+  {
+    "datasourceId": "Baku",
+    "lat": 40.386992,
+    "lon": 49.842946
+  },
+  {
+    "datasourceId": "Bamako",
+    "lat": 12.6392316,
+    "lon": -8.0028892
+  },
+  {
+    "datasourceId": "Bandar Seri Begawan",
+    "lat": 4.9030522,
+    "lon": 114.939821
+  },
+  {
+    "datasourceId": "Bangkok",
+    "lat": 13.7563309,
+    "lon": 100.5017651
+  },
+  {
+    "datasourceId": "Bangui",
+    "lat": 4.3946735,
+    "lon": 18.5581899
+  },
+  {
+    "datasourceId": "Banja Luka",
+    "lat": 44.7725,
+    "lon": 17.185556
+  },
+  {
+    "datasourceId": "Banjul",
+    "lat": 13.454375,
+    "lon": -16.5753186
+  },
+  {
+    "datasourceId": "Barcelona",
+    "lat": 41.3873974,
+    "lon": 2.168568
+  },
+  {
+    "datasourceId": "Beijing",
+    "lat": 39.953352,
+    "lon": 116.466258
+  },
+  {
+    "datasourceId": "Beirut",
+    "lat": 33.8937913,
+    "lon": 35.5017767
+  },
+  {
+    "datasourceId": "Belfast",
+    "lat": 54.597285,
+    "lon": -5.93012
+  },
+  {
+    "datasourceId": "Belgrade",
+    "lat": 44.8125449,
+    "lon": 20.4612299
+  },
+  {
+    "datasourceId": "Belmopan",
+    "lat": 17.256124,
+    "lon": -88.7590201
+  },
+  {
+    "datasourceId": "Berlin",
+    "lat": 52.5200066,
+    "lon": 13.404954
+  },
+  {
+    "datasourceId": "Bern",
+    "lat": 46.9479739,
+    "lon": 7.4474468
+  },
+  {
+    "datasourceId": "Bishkek",
+    "lat": 42.827626,
+    "lon": 74.58384
+  },
+  {
+    "datasourceId": "Bogota",
+    "lat": 4.637735,
+    "lon": -74.094856
+  },
+  {
+    "datasourceId": "Bordeaux",
+    "lat": 44.837789,
+    "lon": -0.57918
+  },
+  {
+    "datasourceId": "Brasilia",
+    "lat": -15.7975154,
+    "lon": -47.8918874
+  },
+  {
+    "datasourceId": "Bratislava",
+    "lat": 48.1485965,
+    "lon": 17.1077478
+  },
+  {
+    "datasourceId": "Brazzaville",
+    "lat": -4.2633597,
+    "lon": 15.2428853
+  },
+  {
+    "datasourceId": "Bridgetown",
+    "lat": 13.1059816,
+    "lon": -59.6131741
+  },
+  {
+    "datasourceId": "Brussels",
+    "lat": 50.8476424,
+    "lon": 4.3571696
+  },
+  {
+    "datasourceId": "Bucharest",
+    "lat": 44.4267674,
+    "lon": 26.1025384
+  },
+  {
+    "datasourceId": "Budapest",
+    "lat": 47.497912,
+    "lon": 19.040235
+  },
+  {
+    "datasourceId": "Buenos Aires",
+    "lat": -34.6036844,
+    "lon": -58.3815591
+  },
+  {
+    "datasourceId": "Bujumbura",
+    "lat": -3.361378,
+    "lon": 29.3598782
+  },
+  {
+    "datasourceId": "Busan",
+    "lat": 35.1795543,
+    "lon": 129.0756416
+  },
+  {
+    "datasourceId": "Cairo",
+    "lat": 30.04147,
+    "lon": 31.23289
+  },
+  {
+    "datasourceId": "Calgary",
+    "lat": 51.0447331,
+    "lon": -114.0718831
+  },
+  {
+    "datasourceId": "Canberra",
+    "lat": -35.2809368,
+    "lon": 149.1300092
+  },
+  {
+    "datasourceId": "Cape Town",
+    "lat": -33.9248685,
+    "lon": 18.4240553
+  },
+  {
+    "datasourceId": "Caracas",
+    "lat": 10.4805937,
+    "lon": -66.9036063
+  },
+  {
+    "datasourceId": "Cartagena",
+    "lat": 10.3932277,
+    "lon": -75.4832311
+  },
+  {
+    "datasourceId": "Casablanca",
+    "lat": 33.5731104,
+    "lon": -7.5898434
+  },
+  {
+    "datasourceId": "CATANO",
+    "lat": 18.4465,
+    "lon": 66.1356
+  },
+  {
+    "datasourceId": "CEIBA, VEGA BAJA",
+    "lat": 18.4425245,
+    "lon": -66.3562141
+  },
+  {
+    "datasourceId": "Chennai",
+    "lat": 13.08784,
+    "lon": 80.278475
+  },
+  {
+    "datasourceId": "Chiang Mai",
+    "lat": 18.7883439,
+    "lon": 98.9853008
+  },
+  {
+    "datasourceId": "Chisinau",
+    "lat": 47.0104529,
+    "lon": 28.8638102
+  },
+  {
+    "datasourceId": "Ciudad Juarez",
+    "lat": 31.6903638,
+    "lon": -106.4245478
+  },
+  {
+    "datasourceId": "Colombo",
+    "lat": 6.909445,
+    "lon": 79.875341
+  },
+  {
+    "datasourceId": "Conakry",
+    "lat": 9.6411855,
+    "lon": -13.5784012
+  },
+  {
+    "datasourceId": "Copenhagen",
+    "lat": 55.6760968,
+    "lon": 12.5683372
+  },
+  {
+    "datasourceId": "Cotonou",
+    "lat": 6.3702928,
+    "lon": 2.3912362
+  },
+  {
+    "datasourceId": "CULEBRA",
+    "lat": 29.4874353,
+    "lon": -98.6681378
+  },
+  {
+    "datasourceId": "Curacao",
+    "lat": 12.16957,
+    "lon": -68.99002
+  },
+  {
+    "datasourceId": "Dakar",
+    "lat": 14.716677,
+    "lon": -17.4676861
+  },
+  {
+    "datasourceId": "Dar es Salaam",
+    "lat": -6.792354,
+    "lon": 39.2083284
+  },
+  {
+    "datasourceId": "Dhahran",
+    "lat": 26.2361248,
+    "lon": 50.0393017
+  },
+  {
+    "datasourceId": "Dhaka",
+    "lat": 23.796374,
+    "lon": 90.424614
+  },
+  {
+    "datasourceId": "Dili",
+    "lat": -8.5568557,
+    "lon": 125.5603143
+  },
+  {
+    "datasourceId": "Djibouti City",
+    "lat": 11.5720765,
+    "lon": 43.1456475
+  },
+  {
+    "datasourceId": "Doha",
+    "lat": 25.2854473,
+    "lon": 51.5310398
+  },
+  {
+    "datasourceId": "Douala",
+    "lat": 4.0510564,
+    "lon": 9.7678687
+  },
+  {
+    "datasourceId": "Dubai",
+    "lat": 25.2048493,
+    "lon": 55.2707828
+  },
+  {
+    "datasourceId": "Dublin",
+    "lat": 53.3498053,
+    "lon": -6.2603097
+  },
+  {
+    "datasourceId": "Durban",
+    "lat": -29.8586804,
+    "lon": 31.0218404
+  },
+  {
+    "datasourceId": "Dushanbe",
+    "lat": 38.5597722,
+    "lon": 68.7870384
+  },
+  {
+    "datasourceId": "Dusseldorf",
+    "lat": 51.2277411,
+    "lon": 6.7734556
+  },
+  {
+    "datasourceId": "Edinburgh",
+    "lat": 55.953252,
+    "lon": -3.188267
+  },
+  {
+    "datasourceId": "Florence",
+    "lat": 43.7695604,
+    "lon": 11.2558136
+  },
+  {
+    "datasourceId": "Frankfurt am Main",
+    "lat": 50.1109221,
+    "lon": 8.6821267
+  },
+  {
+    "datasourceId": "Freetown",
+    "lat": 8.4656765,
+    "lon": -13.2317225
+  },
+  {
+    "datasourceId": "Fukuoka",
+    "lat": 33.5901838,
+    "lon": 130.4016888
+  },
+  {
+    "datasourceId": "Gaborone",
+    "lat": -24.6282079,
+    "lon": 25.9231471
+  },
+  {
+    "datasourceId": "Gaziantep",
+    "lat": 37.065953,
+    "lon": 37.37811
+  },
+  {
+    "datasourceId": "Geneva",
+    "lat": 46.2043907,
+    "lon": 6.1431577
+  },
+  {
+    "datasourceId": "Georgetown",
+    "lat": 6.8012793,
+    "lon": -58.1551255
+  },
+  {
+    "datasourceId": "Guadalajara",
+    "lat": 20.6596988,
+    "lon": -103.3496092
+  },
+  {
+    "datasourceId": "Guangzhou",
+    "lat": 23.116785,
+    "lon": 113.318088
+  },
+  {
+    "datasourceId": "Guatemala City",
+    "lat": 14.989397,
+    "lon": -90.522408
+  },
+  {
+    "datasourceId": "Guayaquil",
+    "lat": -2.1894128,
+    "lon": -79.8890662
+  },
+  {
+    "datasourceId": "Halifax",
+    "lat": 44.647175,
+    "lon": -63.573689
+  },
+  {
+    "datasourceId": "Hamburg",
+    "lat": 53.5510846,
+    "lon": 9.9936819
+  },
+  {
+    "datasourceId": "Hamilton",
+    "lat": 32.2945837,
+    "lon": -64.7858887
+  },
+  {
+    "datasourceId": "Hanoi",
+    "lat": 21.021939,
+    "lon": 105.818806
+  },
+  {
+    "datasourceId": "Harare",
+    "lat": -17.8216288,
+    "lon": 31.0492259
+  },
+  {
+    "datasourceId": "Havana",
+    "lat": 23.1135925,
+    "lon": -82.3665956
+  },
+  {
+    "datasourceId": "Helsinki",
+    "lat": 60.1698557,
+    "lon": 24.9383791
+  },
+  {
+    "datasourceId": "Hermosillo",
+    "lat": 29.0729673,
+    "lon": -110.9559192
+  },
+  {
+    "datasourceId": "Ho Chi Minh City",
+    "lat": 10.8230989,
+    "lon": 106.6296638
+  },
+  {
+    "datasourceId": "Hong Kong",
+    "lat": 22.3193039,
+    "lon": 114.1693611
+  },
+  {
+    "datasourceId": "Hyderabad",
+    "lat": 17.38405,
+    "lon": 78.45636
+  },
+  {
+    "datasourceId": "Islamabad",
+    "lat": 33.725614,
+    "lon": 73.11602
+  },
+  {
+    "datasourceId": "Istanbul",
+    "lat": 41.0082376,
+    "lon": 28.9783589
+  },
+  {
+    "datasourceId": "Jakarta",
+    "lat": -6.2087634,
+    "lon": 106.845599
+  },
+  {
+    "datasourceId": "Jeddah",
+    "lat": 21.485811,
+    "lon": 39.1925048
+  },
+  {
+    "datasourceId": "Jerusalem",
+    "lat": 31.768319,
+    "lon": 35.21371
+  },
+  {
+    "datasourceId": "Johannesburg",
+    "lat": -26.2041028,
+    "lon": 28.0473051
+  },
+  {
+    "datasourceId": "Juba",
+    "lat": 4.859363,
+    "lon": 31.57125
+  },
+  {
+    "datasourceId": "Kampala",
+    "lat": 0.3475964,
+    "lon": 32.5825197
+  },
+  {
+    "datasourceId": "Kaohsiung",
+    "lat": 22.6272784,
+    "lon": 120.3014353
+  },
+  {
+    "datasourceId": "Karachi",
+    "lat": 24.8415,
+    "lon": 67.0091
+  },
+  {
+    "datasourceId": "Kathmandu",
+    "lat": 27.7172453,
+    "lon": 85.3239605
+  },
+  {
+    "datasourceId": "Khartoum",
+    "lat": 15.5006544,
+    "lon": 32.5598994
+  },
+  {
+    "datasourceId": "Kigali",
+    "lat": -1.936231,
+    "lon": 30.077952
+  },
+  {
+    "datasourceId": "Kingston",
+    "lat": 18.0178743,
+    "lon": -76.8099041
+  },
+  {
+    "datasourceId": "Kinshasa",
+    "lat": -4.4419311,
+    "lon": 15.2662931
+  },
+  {
+    "datasourceId": "Kirkuk",
+    "lat": 35.4666329,
+    "lon": 44.3798895
+  },
+  {
+    "datasourceId": "Kolkata",
+    "lat": 22.56263,
+    "lon": 88.36304
+  },
+  {
+    "datasourceId": "Krakow",
+    "lat": 50.0646501,
+    "lon": 19.9449799
+  },
+  {
+    "datasourceId": "Kuala Lumpur",
+    "lat": 3.15675,
+    "lon": 101.72145
+  },
+  {
+    "datasourceId": "Kuwait City",
+    "lat": 29.292317,
+    "lon": 48.047679
+  },
+  {
+    "datasourceId": "Kyiv",
+    "lat": 50.4501,
+    "lon": 30.5234
+  },
+  {
+    "datasourceId": "La Paz",
+    "lat": -16.489689,
+    "lon": -68.1192936
+  },
+  {
+    "datasourceId": "Lagos",
+    "lat": 6.440483,
+    "lon": 3.406815
+  },
+  {
+    "datasourceId": "Lahore",
+    "lat": 31.560078,
+    "lon": 74.33589
+  },
+  {
+    "datasourceId": "Leipzig",
+    "lat": 51.3396955,
+    "lon": 12.3730747
+  },
+  {
+    "datasourceId": "Libreville",
+    "lat": 0.4161976,
+    "lon": 9.4672676
+  },
+  {
+    "datasourceId": "Lilongwe",
+    "lat": -13.9626121,
+    "lon": 33.7741195
+  },
+  {
+    "datasourceId": "Lima",
+    "lat": -12.0463731,
+    "lon": -77.042754
+  },
+  {
+    "datasourceId": "Lisbon",
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  {
+    "datasourceId": "Ljubljana",
+    "lat": 46.0569465,
+    "lon": 14.5057515
+  },
+  {
+    "datasourceId": "Lome",
+    "lat": 6.1256261,
+    "lon": 1.2254183
+  },
+  {
+    "datasourceId": "London",
+    "lat": 51.5072178,
+    "lon": -0.1275862
+  },
+  {
+    "datasourceId": "Luanda",
+    "lat": -8.8146556,
+    "lon": 13.2301756
+  },
+  {
+    "datasourceId": "Lusaka",
+    "lat": -15.3875259,
+    "lon": 28.3228165
+  },
+  {
+    "datasourceId": "Luxembourg City",
+    "lat": 49.611621,
+    "lon": 6.1319346
+  },
+  {
+    "datasourceId": "Lyon",
+    "lat": 45.764043,
+    "lon": 4.835659
+  },
+  {
+    "datasourceId": "Madrid",
+    "lat": 40.4167754,
+    "lon": -3.7037902
+  },
+  {
+    "datasourceId": "Malabo",
+    "lat": 3.7549606,
+    "lon": 8.7821344
+  },
+  {
+    "datasourceId": "Managua",
+    "lat": 12.1149926,
+    "lon": -86.2361744
+  },
+  {
+    "datasourceId": "Manama",
+    "lat": 26.204697,
+    "lon": 50.570833
+  },
+  {
+    "datasourceId": "Manila",
+    "lat": 14.57711,
+    "lon": 120.9778
+  },
+  {
+    "datasourceId": "Maputo",
+    "lat": -25.969248,
+    "lon": 32.5731746
+  },
+  {
+    "datasourceId": "Marseille",
+    "lat": 43.296482,
+    "lon": 5.36978
+  },
+  {
+    "datasourceId": "Maseru",
+    "lat": -29.3150767,
+    "lon": 27.4869229
+  },
+  {
+    "datasourceId": "Matamoros",
+    "lat": 25.8690294,
+    "lon": -97.5027376
+  },
+  {
+    "datasourceId": "Mbabane",
+    "lat": -26.3054482,
+    "lon": 31.1366715
+  },
+  {
+    "datasourceId": "Medan",
+    "lat": 3.5951956,
+    "lon": 98.6722227
+  },
+  {
+    "datasourceId": "Melbourne",
+    "lat": -37.8136276,
+    "lon": 144.9630576
+  },
+  {
+    "datasourceId": "Merida",
+    "lat": 20.9673702,
+    "lon": -89.5925857
+  },
+  {
+    "datasourceId": "Mexico City",
+    "lat": 19.4326077,
+    "lon": -99.133208
+  },
+  {
+    "datasourceId": "Milan",
+    "lat": 45.4642035,
+    "lon": 9.189982
+  },
+  {
+    "datasourceId": "Minsk",
+    "lat": 53.9006011,
+    "lon": 27.558972
+  },
+  {
+    "datasourceId": "Mogadishu",
+    "lat": 2.0469343,
+    "lon": 45.3181623
+  },
+  {
+    "datasourceId": "Monrovia",
+    "lat": 6.3156068,
+    "lon": -10.8073698
+  },
+  {
+    "datasourceId": "Monterrey",
+    "lat": 25.6866142,
+    "lon": -100.3161126
+  },
+  {
+    "datasourceId": "Montevideo",
+    "lat": -34.9011127,
+    "lon": -56.1645314
+  },
+  {
+    "datasourceId": "Montreal",
+    "lat": 45.5016889,
+    "lon": -73.567256
+  },
+  {
+    "datasourceId": "Moscow",
+    "lat": 55.755826,
+    "lon": 37.6172999
+  },
+  {
+    "datasourceId": "Mostar",
+    "lat": 43.3437748,
+    "lon": 17.8077578
+  },
+  {
+    "datasourceId": "Mumbai",
+    "lat": 19.07283,
+    "lon": 72.88261
+  },
+  {
+    "datasourceId": "Munchen",
+    "lat": 48.1351253,
+    "lon": 11.5819805
+  },
+  {
+    "datasourceId": "Muscat",
+    "lat": 23.5880307,
+    "lon": 58.3828717
+  },
+  {
+    "datasourceId": "Nagoya",
+    "lat": 35.1814506,
+    "lon": 136.9065571
+  },
+  {
+    "datasourceId": "Naha",
+    "lat": 26.2125758,
+    "lon": 127.6790208
+  },
+  {
+    "datasourceId": "Nairobi",
+    "lat": -1.2920659,
+    "lon": 36.8219462
+  },
+  {
+    "datasourceId": "Naples",
+    "lat": 40.8517983,
+    "lon": 14.26812
+  },
+  {
+    "datasourceId": "Nassau",
+    "lat": 25.0443312,
+    "lon": -77.3503609
+  },
+  {
+    "datasourceId": "Nay Pyi Taw",
+    "lat": 19.7633057,
+    "lon": 96.0785104
+  },
+  {
+    "datasourceId": "N'Djamena",
+    "lat": 12.1348457,
+    "lon": 15.0557415
+  },
+  {
+    "datasourceId": "New Delhi",
+    "lat": 28.63576,
+    "lon": 77.22445
+  },
+  {
+    "datasourceId": "New York",
+    "lat": 40.7127753,
+    "lon": -74.0059728
+  },
+  {
+    "datasourceId": "Niamey",
+    "lat": 13.5115963,
+    "lon": 2.1253854
+  },
+  {
+    "datasourceId": "Nicosia",
+    "lat": 35.1855659,
+    "lon": 33.3822764
+  },
+  {
+    "datasourceId": "Nogales",
+    "lat": 31.291294,
+    "lon": -110.951508
+  },
+  {
+    "datasourceId": "Nouakchott",
+    "lat": 18.0735299,
+    "lon": -15.9582372
+  },
+  {
+    "datasourceId": "Nuevo Laredo",
+    "lat": 27.4779362,
+    "lon": -99.549573
+  },
+  {
+    "datasourceId": "Nur-Sultan",
+    "lat": 51.125287,
+    "lon": 71.467217
+  },
+  {
+    "datasourceId": "Nuuk",
+    "lat": 64.1814099,
+    "lon": -51.6941381
+  },
+  {
+    "datasourceId": "Osaka",
+    "lat": 34.6937249,
+    "lon": 135.5022535
+  },
+  {
+    "datasourceId": "Oslo",
+    "lat": 59.9138688,
+    "lon": 10.7522454
+  },
+  {
+    "datasourceId": "Ottawa",
+    "lat": 45.434333,
+    "lon": -75.6971931
+  },
+  {
+    "datasourceId": "Ouagadougou",
+    "lat": 12.3714277,
+    "lon": -1.5196603
+  },
+  {
+    "datasourceId": "Panama City",
+    "lat": 8.9823792,
+    "lon": -79.5198696
+  },
+  {
+    "datasourceId": "Paramaribo",
+    "lat": 5.8520355,
+    "lon": -55.2038278
+  },
+  {
+    "datasourceId": "Paris",
+    "lat": 48.856614,
+    "lon": 2.3522219
+  },
+  {
+    "datasourceId": "Perth",
+    "lat": -31.9523123,
+    "lon": 115.861309
+  },
+  {
+    "datasourceId": "Peshawar",
+    "lat": 34.005852,
+    "lon": 71.53775
+  },
+  {
+    "datasourceId": "Phnom Penh",
+    "lat": 11.5563738,
+    "lon": 104.9282099
+  },
+  {
+    "datasourceId": "Podgorica",
+    "lat": 42.4304196,
+    "lon": 19.2593642
+  },
+  {
+    "datasourceId": "Ponta Delgada",
+    "lat": 37.7394207,
+    "lon": -25.6686725
+  },
+  {
+    "datasourceId": "Port Louis",
+    "lat": -20.1608912,
+    "lon": 57.5012222
+  },
+  {
+    "datasourceId": "Port Moresby",
+    "lat": -9.4438004,
+    "lon": 147.1802671
+  },
+  {
+    "datasourceId": "Port of Spain",
+    "lat": 10.6603196,
+    "lon": -61.5085625
+  },
+  {
+    "datasourceId": "Port-au-Prince",
+    "lat": 18.594395,
+    "lon": -72.3074326
+  },
+  {
+    "datasourceId": "Porto Alegre",
+    "lat": -30.0368176,
+    "lon": -51.2089887
+  },
+  {
+    "datasourceId": "Prague",
+    "lat": 50.0755381,
+    "lon": 14.4378005
+  },
+  {
+    "datasourceId": "Praia",
+    "lat": 14.93305,
+    "lon": -23.5133267
+  },
+  {
+    "datasourceId": "Pretoria",
+    "lat": -25.7478676,
+    "lon": 28.2292712
+  },
+  {
+    "datasourceId": "Pristina",
+    "lat": 42.655959,
+    "lon": 21.139953
+  },
+  {
+    "datasourceId": "Quebec",
+    "lat": 46.8138783,
+    "lon": -71.2079809
+  },
+  {
+    "datasourceId": "Quito",
+    "lat": -0.1806532,
+    "lon": -78.4678382
+  },
+  {
+    "datasourceId": "Rabat",
+    "lat": 33.9715904,
+    "lon": -6.8498129
+  },
+  {
+    "datasourceId": "Rangoon",
+    "lat": 16.840939,
+    "lon": 96.173526
+  },
+  {
+    "datasourceId": "Recife",
+    "lat": -8.0577401,
+    "lon": -34.8829629
+  },
+  {
+    "datasourceId": "Rennes",
+    "lat": 48.117266,
+    "lon": -1.6777926
+  },
+  {
+    "datasourceId": "Reykjavik",
+    "lat": 64.146582,
+    "lon": -21.9426354
+  },
+  {
+    "datasourceId": "Riga",
+    "lat": 56.9496487,
+    "lon": 24.1051865
+  },
+  {
+    "datasourceId": "Rio de Janeiro",
+    "lat": -22.9068467,
+    "lon": -43.1728965
+  },
+  {
+    "datasourceId": "Riyadh",
+    "lat": 24.7135517,
+    "lon": 46.6752957
+  },
+  {
+    "datasourceId": "Rome",
+    "lat": 41.9027835,
+    "lon": 12.4963655
+  },
+  {
+    "datasourceId": "Saint George's",
+    "lat": 12.0560975,
+    "lon": -61.7487996
+  },
+  {
+    "datasourceId": "Saint Petersburg",
+    "lat": 59.9310584,
+    "lon": 30.3609096
+  },
+  {
+    "datasourceId": "San Jose",
+    "lat": 9.9280694,
+    "lon": -84.0907246
+  },
+  {
+    "datasourceId": "San Salvador",
+    "lat": 13.6929403,
+    "lon": -89.2181911
+  },
+  {
+    "datasourceId": "Santiago",
+    "lat": -33.4488897,
+    "lon": -70.6692655
+  },
+  {
+    "datasourceId": "Santo Domingo",
+    "lat": 18.4860575,
+    "lon": -69.9312117
+  },
+  {
+    "datasourceId": "Sao Paulo",
+    "lat": -23.629158,
+    "lon": -46.696558
+  },
+  {
+    "datasourceId": "Sapporo",
+    "lat": 43.0617713,
+    "lon": 141.3544507
+  },
+  {
+    "datasourceId": "Sarajevo",
+    "lat": 43.856665,
+    "lon": 18.398205
+  },
+  {
+    "datasourceId": "Seoul",
+    "lat": 37.566535,
+    "lon": 126.9779692
+  },
+  {
+    "datasourceId": "Shanghai",
+    "lat": 31.230416,
+    "lon": 121.473701
+  },
+  {
+    "datasourceId": "Shenyang",
+    "lat": 41.78351,
+    "lon": 123.424434
+  },
+  {
+    "datasourceId": "Singapore City",
+    "lat": 1.3553794,
+    "lon": 103.8677444
+  },
+  {
+    "datasourceId": "Skopje",
+    "lat": 41.9981294,
+    "lon": 21.4254355
+  },
+  {
+    "datasourceId": "Sofia",
+    "lat": 42.6977082,
+    "lon": 23.3218675
+  },
+  {
+    "datasourceId": "Stockholm",
+    "lat": 59.3293235,
+    "lon": 18.0685808
+  },
+  {
+    "datasourceId": "Strasbourg",
+    "lat": 48.5734053,
+    "lon": 7.7521113
+  },
+  {
+    "datasourceId": "Surabaya",
+    "lat": -7.2574719,
+    "lon": 112.7520883
+  },
+  {
+    "datasourceId": "Suva",
+    "lat": -18.1405049,
+    "lon": 178.4232507
+  },
+  {
+    "datasourceId": "Sydney",
+    "lat": -33.8688197,
+    "lon": 151.2092955
+  },
+  {
+    "datasourceId": "Taipei",
+    "lat": 25.0329636,
+    "lon": 121.5654268
+  },
+  {
+    "datasourceId": "Tallinn",
+    "lat": 59.4369608,
+    "lon": 24.7535747
+  },
+  {
+    "datasourceId": "Tashkent",
+    "lat": 41.3672,
+    "lon": 69.2725
+  },
+  {
+    "datasourceId": "Tbilisi",
+    "lat": 41.7151377,
+    "lon": 44.827096
+  },
+  {
+    "datasourceId": "Tegucigalpa",
+    "lat": 14.065049,
+    "lon": -87.1715002
+  },
+  {
+    "datasourceId": "Tel Aviv",
+    "lat": 32.0852999,
+    "lon": 34.7817676
+  },
+  {
+    "datasourceId": "The Hague",
+    "lat": 52.0704978,
+    "lon": 4.3006999
+  },
+  {
+    "datasourceId": "Thessaloniki",
+    "lat": 40.6400629,
+    "lon": 22.9444191
+  },
+  {
+    "datasourceId": "Tijuana",
+    "lat": 32.523366,
+    "lon": -116.952495
+  },
+  {
+    "datasourceId": "Tirana",
+    "lat": 41.3275459,
+    "lon": 19.8186982
+  },
+  {
+    "datasourceId": "Tokyo",
+    "lat": 35.6761919,
+    "lon": 139.6503106
+  },
+  {
+    "datasourceId": "Toronto",
+    "lat": 43.653226,
+    "lon": -79.3831843
+  },
+  {
+    "datasourceId": "Toulouse",
+    "lat": 43.604652,
+    "lon": 1.444209
+  },
+  {
+    "datasourceId": "Tripoli",
+    "lat": 32.8872094,
+    "lon": 13.1913383
+  },
+  {
+    "datasourceId": "Tunis",
+    "lat": 36.8064948,
+    "lon": 10.1815316
+  },
+  {
+    "datasourceId": "Ulaanbaatar",
+    "lat": 47.928385,
+    "lon": 106.92947
+  },
+  {
+    "datasourceId": "Valletta",
+    "lat": 35.8989085,
+    "lon": 14.5145528
+  },
+  {
+    "datasourceId": "Vancouver",
+    "lat": 49.368,
+    "lon": -123.277
+  },
+  {
+    "datasourceId": "Vatican City",
+    "lat": 41.902916,
+    "lon": 12.453389
+  },
+  {
+    "datasourceId": "Vienna",
+    "lat": 48.2081743,
+    "lon": 16.3738189
+  },
+  {
+    "datasourceId": "Vientiane",
+    "lat": 17.9757058,
+    "lon": 102.6331035
+  },
+  {
+    "datasourceId": "Vilnius",
+    "lat": 54.6871555,
+    "lon": 25.2796514
+  },
+  {
+    "datasourceId": "Vladivostok",
+    "lat": 43.1332484,
+    "lon": 131.9112975
+  },
+  {
+    "datasourceId": "Warsaw",
+    "lat": 52.2296756,
+    "lon": 21.0122287
+  },
+  {
+    "datasourceId": "Washington",
+    "lat": 47.7510741,
+    "lon": -120.7401385
+  },
+  {
+    "datasourceId": "Wellington",
+    "lat": -41.2923814,
+    "lon": 174.7787463
+  },
+  {
+    "datasourceId": "Windhoek",
+    "lat": -22.5608807,
+    "lon": 17.0657549
+  },
+  {
+    "datasourceId": "Winnipeg",
+    "lat": 49.895136,
+    "lon": -97.1383744
+  },
+  {
+    "datasourceId": "Wuhan",
+    "lat": 30.5927599,
+    "lon": 114.30525
+  },
+  {
+    "datasourceId": "Yaounde",
+    "lat": 3.8480325,
+    "lon": 11.5020752
+  },
+  {
+    "datasourceId": "Yekaterinburg",
+    "lat": 56.8430993,
+    "lon": 60.6454086
+  },
+  {
+    "datasourceId": "Yerevan",
+    "lat": 40.1872023,
+    "lon": 44.515209
+  },
+  {
+    "datasourceId": "Yokohama",
+    "lat": 35.4436739,
+    "lon": 139.6379639
+  },
+  {
+    "datasourceId": "Zagreb",
+    "lat": 45.8150108,
+    "lon": 15.9819189
+  }
+]

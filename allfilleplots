@@ -1,0 +1,85 @@
+# prompt: add the metrics in the above plot and write full code
+
+import pandas as pd
+import numpy as np
+from scipy.stats import linregress
+from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error
+import matplotlib.pyplot as plt 
+import seaborn as sns  
+import os
+
+def IOA(p,o):
+  ioa = 1 -(np.sum((p-o)**2))/(np.sum((np.abs(p-np.mean(o))+np.abs(o-np.mean(o)))**2))
+  return ioa
+
+# Directory containing the data files
+data_dir =r"C:\Users\rprasai\OneDrive - NASA\aeronet_1600_test\merged_files_3"
+save_dir=r"C:\Users\rprasai\OneDrive - NASA\aeronet_1600_test\"
+
+# Collect data from all files
+all_x = []
+all_y = []
+for filename in os.listdir(data_dir):
+    if filename.endswith('.csv'):
+        filepath = os.path.join(data_dir, filename)
+        df = pd.read_csv(filepath) 
+        df = df[(df['AOD500_AVG'] != -999) & (df['TOTEXTTAU'] != -999)]
+        all_x.extend(df['AOD500_AVG'].tolist())
+        all_y.extend(df['TOTEXTTAU'].tolist())
+
+# Convert lists to numpy arrays for easier handling
+all_x = np.array(all_x)
+all_y = np.array(all_y)
+
+if all_x.size == 0 or all_y.size == 0:
+    print("No valid data found in the files.")
+else:
+    # Calculate overall metrics 
+    RMSE = np.sqrt(np.mean((all_y - all_x)**2))
+    rRMSE = (RMSE / np.mean(all_y)) * 100.0
+    slope = linregress(all_x, all_y)[0]
+    intercept = linregress(all_x, all_y)[1]
+    R = linregress(all_x, all_y)[2]
+    R2 = R**2
+    N = len(all_x)
+    lmfit = (slope * all_x) + intercept
+    MAE = mean_absolute_error(all_x, all_y)
+    MBE = np.mean(all_y - all_x)
+    MAPE = mean_absolute_percentage_error(all_x, all_y)
+    ioa = IOA(all_y, all_x)
+
+    # Plotting
+    plt.figure(figsize=(8, 8))  
+    g = sns.jointplot(x=all_x, y=all_y, kind="kde", fill=True, cmap='Blues', height=8)
+    g.plot_joint(plt.scatter, s=50, alpha=0.7) 
+
+    # Plot the regression line on the jointplot
+    g.ax_joint.plot(all_x, lmfit, color='red', linewidth=2) 
+    X = np.linspace(0, max(all_x.max(), all_y.max()) * 1.1, 10)
+    Y = np.linspace(0, max(all_x.max(), all_y.max()) * 1.1, 10)
+    g.ax_joint.plot(X, Y, color='black', linestyle='--', linewidth=2) 
+
+    # Annotate with metrics 
+    textstr = '\n'.join((
+        r'Y = %.2f X + %.2f' % (slope, intercept),
+        r'N = %d' % (N),
+        r'R\u00b2 = %.2f' % (R2),
+        r'RMSE = %.2f' % (RMSE),
+        r'rRMSE = %.2f %%' % (rRMSE),
+        r'MAE = %.2f' % (MAE),
+        r'MBE = %.2f' % (MBE),
+        r'MAPE = %.2f %%' % (MAPE),
+        r'IOA = %.2f' % (ioa)))
+
+    props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
+    plt.text(0.05, 0.95, textstr, transform=g.ax_joint.transAxes, fontsize=12,
+            verticalalignment='top', bbox=props)
+
+    # Set plot labels and title
+    g.set_axis_labels('AERONET AOD500_AVG', 'MERRA2 AOD', fontsize=12) 
+    plt.suptitle('Combined Density Plot with Metrics', y=1.02, fontsize=14) 
+
+    # Display the plot
+    plt.grid(True)
+    plt.savefig(os.path.join(save_dir,'combined_plot.png'))
+    plt.show()
